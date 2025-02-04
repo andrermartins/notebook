@@ -16,21 +16,9 @@ Serverless Data Platform:
 
 https://upstash.com/
 
-FutureTools Collects & Organizes All The Best AI Tools:
-
-https://www.futuretools.io/
-
 Automation you can see, flex, and scale:
 
 https://www.make.com
-
-The AI community building the future. The platform where the machine learning community collaborates on models, datasets, and applications:
-
-https://huggingface.co/
-
-Ship faster with Postgres. The database you love, on a serverless platform designed to help you build reliable and scalable applications faster:
-
-https://neon.tech/
 
 Your fastest path to production. Build, deploy, and scale your apps with unparalleled ease – from your first user to your billionth:
 
@@ -39,6 +27,24 @@ https://render.com/
 MongoDB Atlas. The multi-cloud developer data platform. An integrated suite of cloud database and data services to accelerate and simplify how you build with data:
 
 https://www.mongodb.com/atlas
+
+Ship faster with Postgres. The database you love, on a serverless platform designed to help you build reliable and scalable applications faster:
+
+https://neon.tech/
+
+## I.A.
+
+Directory of templates on Cursor - The AI Code Editor:
+
+https://cursor.directory/
+
+FutureTools Collects & Organizes All The Best AI Tools:
+
+https://www.futuretools.io/
+
+The AI community building the future. The platform where the machine learning community collaborates on models, datasets, and applications:
+
+https://huggingface.co/
 
 ## C# .NET
 
