@@ -24,6 +24,8 @@ Your fastest path to production. Build, deploy, and scale your apps with unparal
 
 https://render.com/
 
+## Database
+
 MongoDB Atlas. The multi-cloud developer data platform. An integrated suite of cloud database and data services to accelerate and simplify how you build with data:
 
 https://www.mongodb.com/atlas
@@ -31,6 +33,10 @@ https://www.mongodb.com/atlas
 Ship faster with Postgres. The database you love, on a serverless platform designed to help you build reliable and scalable applications faster:
 
 https://neon.tech/
+
+Supabase is an open source Firebase alternative. Start your project with a Postgres database, Authentication, instant APIs, Edge Functions, Realtime subscriptions, Storage, and Vector embeddings:
+
+https://supabase.com/
 
 ## I.A.
 
