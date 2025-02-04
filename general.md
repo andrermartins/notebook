@@ -34,7 +34,7 @@ https://neon.tech/
 
 ## I.A.
 
-Directory of templates on Cursor - The AI Code Editor:
+Directory of templates prompts on Cursor - The AI Code Editor:
 
 https://cursor.directory/
 
