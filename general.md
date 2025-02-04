@@ -55,6 +55,10 @@ Creating software has never been more accessible. With Lovable, simply describe 
 
 https://lovable.dev/
 
+Text to App in Minutes. Codev helps your app idea come to life, and deploys it using Nextjs:
+
+https://www.co.dev/
+
 ## C# .NET
 
 Common Pitfalls Writing scalable services in ASP.NET Core:
