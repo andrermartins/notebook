@@ -46,6 +46,10 @@ The AI community building the future. The platform where the machine learning co
 
 https://huggingface.co/
 
+Create powerful prompts for AI coding tools. Built for the next generation of AI coders. Upload images of full applications, UI mockups, or custom designs and use our generated prompts to build your apps faster:
+
+https://copycoder.ai/
+
 ## C# .NET
 
 Common Pitfalls Writing scalable services in ASP.NET Core:
