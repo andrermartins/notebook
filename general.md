@@ -43,3 +43,7 @@ https://render.com/
 MongoDB Atlas. The multi-cloud developer data platform. An integrated suite of cloud database and data services to accelerate and simplify how you build with data:
 
 https://www.mongodb.com/atlas
+
+Using Streams with HttpClient to Improve Performance and Memory Usage:
+
+https://code-maze.com/using-streams-with-httpclient-to-improve-performance-and-memory-usage/
