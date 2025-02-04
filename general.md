@@ -50,6 +50,11 @@ Create powerful prompts for AI coding tools. Built for the next generation of AI
 
 https://copycoder.ai/
 
+Idea to app in seconds. Lovable is your superhuman full stack engineer. Build high quality software without writing code.
+Creating software has never been more accessible. With Lovable, simply describe your idea in your own words, and watch it transform into a fully functional application with beautiful aesthetics:
+
+https://lovable.dev/
+
 ## C# .NET
 
 Common Pitfalls Writing scalable services in ASP.NET Core:
