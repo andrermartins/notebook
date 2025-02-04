@@ -1,9 +1,5 @@
 # General
 
-Common Pitfalls Writing scalable services in ASP.NET Core:
-
-https://github.com/davidfowl/AspNetCoreDiagnosticScenarios/tree/master
-
 Financial infrastructure to grow your revenue:
 
 https://github.com/stripe/stripe-dotnet
@@ -44,6 +40,16 @@ MongoDB Atlas. The multi-cloud developer data platform. An integrated suite of c
 
 https://www.mongodb.com/atlas
 
+## C# .NET
+
+Common Pitfalls Writing scalable services in ASP.NET Core:
+
+https://github.com/davidfowl/AspNetCoreDiagnosticScenarios/tree/master
+
 Using Streams with HttpClient to Improve Performance and Memory Usage:
 
 https://code-maze.com/using-streams-with-httpclient-to-improve-performance-and-memory-usage/
+
+Understanding the Whys, Whats, and Whens of ValueTask:
+
+https://devblogs.microsoft.com/dotnet/understanding-the-whys-whats-and-whens-of-valuetask/
