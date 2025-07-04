@@ -1,4 +1,4 @@
 # notebook
-The goal of this repository is to list useful and interesting links.
+The goal of this repository is to list useful and interesting links and ideias.
 
 [General Links](general.md)
