@@ -38,5 +38,17 @@ Prefer to use string interpolation instead of concatenation:
 ```
 logger.LogInformation("Number Payment: {id}", id);
 ```
+## 4) Compile Time Regex
+
+With source-generated Regex, eliminating any runtime parsing or IL compilation overhead and you'll get a compile-time error.
+```
+[GeneratedRegex(@"^\d{4}-\d{2}-\d{2}$")]
+private static partial Regex DateRegex();
+
+public bool isDateValid(string date)
+{
+  return DateRegex().IsMatch(date)
+}
+```
 
 
