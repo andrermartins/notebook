@@ -1,15 +1,16 @@
 # C# .NET Performance Tips
 
 ## 1) Array and List Empty
-To initialize arrays:
+To reduce memory allocations and garbage collection overhead, leading to better performance in scenarios where empty arrays are frequently returned or initialized, try this:
 ```
+// To initialize arrays
 // Prefer
 string[] cars = Array.Empty<string>();
 // Or else
 string[] cars = [];
 ```
-To initialize lists:
 ```
+// To initialize lists
 // Prefer
 List<string> bikes = Enumerable.Empty<string>();
 ```
