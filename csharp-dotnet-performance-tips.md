@@ -31,3 +31,12 @@ catch (Exception ex)
   throw;
 }
 ```
+
+## 3) Log Message Interpolation
+
+Prefer to use string interpolation instead of concatenation:
+```
+logger.LogInformation("Number Payment: {id}", id);
+```
+
+
