@@ -2,3 +2,5 @@
 The goal of this repository is to list useful and interesting links and ideias.
 
 [General Links](general.md)
+
+[.NET Performance Tips](dotnet-performance-tips.md)
