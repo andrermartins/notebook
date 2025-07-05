@@ -60,6 +60,29 @@ public sealed class PaymentProcessor
 }
 ```
 
+## 6) Long time execution
+It is good for breaking up CPU-bound work on a single-threaded context (e.g., UI thread):
+```
+await ProcessLargeListAsync(CreateFakeList(500));
+
+private static async Task ProcessLargeListAsync(List<int> items)
+{
+  for (int i = 0; i < items.Count; i++)
+  {
+    DoWork(items[i]);
+    if (i > 0 && i % 100 == 0)
+    {
+      Console.WriteLine($"[Yield] After processing item {i} yielding control...");
+      await Task.Yield();
+    }
+  }
+}
+
+private static void DoWork(int item)
+{
+  Console.WriteLine("Do sometring...");
+}
+```
 
 
 
