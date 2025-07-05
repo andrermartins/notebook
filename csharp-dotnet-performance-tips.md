@@ -60,7 +60,7 @@ public sealed class PaymentProcessor
 }
 ```
 
-## 6) Long time execution
+## 6) Long Time Execution
 It is good for breaking up CPU-bound work on a single-threaded context (e.g., UI thread):
 ```
 await ProcessLargeListAsync(CreateFakeList(500));
@@ -81,6 +81,29 @@ private static async Task ProcessLargeListAsync(List<int> items)
 private static void DoWork(int item)
 {
   Console.WriteLine("Do sometring...");
+}
+```
+
+## 7) ArrayPool
+Instead of creating new arrays, you reuse existing ones. Benefits like reduced Allocations, lower GC pressure, improved throughput:
+```
+public int UsingArrayPool()
+{
+  byte[] buffer = ArrayPool<byte>.Shared.Rent(minimumLength: BufferSize);
+  try
+  {
+    for (int i = 0; i < BufferSize; i++)
+      buffer[i] = 42;
+    int sum = 0;
+    for (int i = 0; i < BufferSize; i++)
+      sum += buffer[i];
+    return sum;
+  }
+  finally
+  {
+    ArrayPool<byte>.Shared. Return(
+    buffer, clearArray: true);
+  }
 }
 ```
 
