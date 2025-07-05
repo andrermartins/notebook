@@ -101,8 +101,7 @@ public int UsingArrayPool()
   }
   finally
   {
-    ArrayPool<byte>.Shared.Return(
-    buffer, clearArray: true);
+    ArrayPool<byte>.Shared.Return(buffer, clearArray: true);
   }
 }
 ```
