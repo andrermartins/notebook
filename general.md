@@ -82,3 +82,7 @@ https://code-maze.com/using-streams-with-httpclient-to-improve-performance-and-m
 Understanding the Whys, Whats, and Whens of ValueTask:
 
 https://devblogs.microsoft.com/dotnet/understanding-the-whys-whats-and-whens-of-valuetask/
+
+## OpenShift
+
+https://developers.redhat.com/articles/2022/06/08/eliminate-downtime-during-openshift-rolling-updates
