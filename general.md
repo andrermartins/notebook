@@ -24,6 +24,10 @@ Your fastest path to production. Build, deploy, and scale your apps with unparal
 
 https://render.com/
 
+CQRS – O que é? Onde aplicar?
+
+https://www.eduardopires.net.br/2016/07/cqrs-o-que-e-onde-aplicar/
+
 ## Database
 
 MongoDB Atlas. The multi-cloud developer data platform. An integrated suite of cloud database and data services to accelerate and simplify how you build with data:
